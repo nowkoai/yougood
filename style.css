@@ -2,11 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* text-transform: uppercase; */
-  /* color: gray; */
-    user-select: none;
+  user-select: none;
   list-style-type: none
-
 }
 
 /* ------------------------------------ */
@@ -28,26 +25,23 @@ body {
 }
 
 /* ------------------------------------ */
-/* likeボタン */
+/* ボタン共通 */
 /* ------------------------------------ */
 ul {
   display: flex;
-  /* flexp-wrap: wrap; */
   flexp-wrap: nowrap;
   font-size: 40px;
   margin: 0 80px;
 }
 
+/* ------------------------------------ */
+/* likeボタン */
+/* ------------------------------------ */
 ul li {
   padding: 2px;
-  /* margin: 0 10px; */
   margin: 0 20px;
 }
 ul span{
-  /* padding: 10px;
-  width: 60px;
-  height: 60px; */
-
   font-size: 24px;
   margin: 0 0 0 -13px;
 }
@@ -58,14 +52,9 @@ ul span{
 ul li:nth-child(2) i{
   transform: rotate(180deg);
   margin: 5px 0 0 0;
-  /* margin: 4px 0 0 0; */
 }
 ul li:nth-child(2) span{
-  /* padding: 10px; */
-  /* width: 60px; */
-  /* height: 60px; */
   vertical-align: 20%;
-
   font-size: 24px;
   margin: 0 0 0 -10px;
 }
@@ -74,18 +63,13 @@ ul li:nth-child(2) span{
 /* Shareボタン */
 /* ------------------------------------ */
 ul li:nth-child(3) {
-  /* padding: 8px 0 0 60px; */
-  /* padding: 0 0 0 20px; */
+  padding: 4px 0 0 0px;
 }
 ul li:nth-child(3) span {
-  /* margin-top: 18px; */
-  /* line-height: 100px; */
-
   vertical-align: 10%;
   font-size: 24px;
   margin: 0 0 0 -13px;
 }
-
 
 /* ------------------------------------ */
 /* クリック時 */
@@ -97,14 +81,7 @@ ul li i {
 
   border-radius: 50%;
 }
-/* transition: all 3.4s ease-in-out; */
 
-/* ul li:nth-child(1) i:active,
-ul li:nth-child(2) i:active {
-  background-color: rgb(226, 226, 226);
-  box-shadow: 0 0 2px rgb(100, 100 ,100) inset;
-  cursor: pointer;
-} */
 ul li:nth-child(1) i:hover,
 ul li:nth-child(2) i:hover,
 ul li:nth-child(3) i:hover {
