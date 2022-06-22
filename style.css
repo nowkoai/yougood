@@ -88,26 +88,26 @@ ul li:nth-child(3) span {
 
 
 /* ------------------------------------ */
-/* ホーバー時 */
+/* クリック時 */
 /* ------------------------------------ */
 ul li i {
-  /* padding: 10px;
-  width: 60px;
-  height: 60px; */
-
   padding: 14px;
   width: 70px;
   height: 70px;
 
   border-radius: 50%;
-  /* transition: all 0.4s ease-in-out; */
 }
+/* transition: all 3.4s ease-in-out; */
 
-ul li:nth-child(1) i:active,
+/* ul li:nth-child(1) i:active,
 ul li:nth-child(2) i:active {
   background-color: rgb(226, 226, 226);
-  /* box-shadow: 0 0 5px rgb(100, 100 ,100) inset; */
   box-shadow: 0 0 2px rgb(100, 100 ,100) inset;
+  cursor: pointer;
+} */
+ul li:nth-child(1) i:hover,
+ul li:nth-child(2) i:hover,
+ul li:nth-child(3) i:hover {
   cursor: pointer;
 }
 /* ------------------------------------ */

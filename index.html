@@ -12,7 +12,7 @@
   <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
   <!-- JS -->
-  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="count.js"></script>
 
 
@@ -22,9 +22,9 @@
   <div class="box">
     <ul>
       <li>
-        <a class="good" onclick="countUpA()">
+        <a class="goodcount" onclick="countUpA()">
         <i onclick="like()" id="like" class="fa fa-thumbs-up"></i></a>
-        <span id="good">0</span>
+        <span id="goodcount">0</span>
       </li>
 
       <li>
@@ -42,15 +42,12 @@
   <script>
     // 初期値
     document.getElementById('like').style.color = '#fff';
-    // document.getElementById('like').style.textShadow = '0 0 3px #000'
     document.getElementById('like').style.textShadow = '0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000'
 
     document.getElementById('dislike').style.color = '#fff';
-    // document.getElementById('dislike').style.textShadow = '0 0 3px #000'
     document.getElementById('dislike').style.textShadow = '0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000'
 
     document.getElementById('share').style.color = '#fff';
-    // document.getElementById('share').style.textShadow = '0 0 3px #000'
     document.getElementById('share').style.textShadow = '0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000'
 
 
@@ -62,7 +59,7 @@
 
       // 反対側
       document.getElementById('dislike').style.color = '#fff'
-      document.getElementById('dislike').style.textShadow = '0 0 3px #000'
+      document.getElementById('dislike').style.textShadow = '0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000'
     }
 
     // よくない
@@ -73,7 +70,7 @@
 
       // 反対側を白
       document.getElementById('like').style.color = '#fff'
-      document.getElementById('like').style.textShadow = '0 0 3px #000'
+      document.getElementById('like').style.textShadow = '0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000,0px 0px 2px #000'
     }
   </script>
 
